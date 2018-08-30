@@ -1,0 +1,530 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "American Beauty",
+      "type": "Drama",
+      "year": "1999",
+      "years": "6",
+      "nominations": [ "Golden globes", "Oscar"],
+      "images": "./img/1_american_beauty.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/American.Beauty"
+    },
+    {
+      "id": 2,
+      "title": "Gladiator",
+      "type": "Drama",
+      "year": "2000",
+      "years": "5",
+      "nominations": ["Golden globes", "Oscar"],
+      "images": "./img/2_gladiator.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Gladiator"
+    },
+    {
+      "id": 3,
+      "title": "A Beautiful Mind",
+      "type": "Drama",
+      "year": "2001",
+      "years": "5",
+      "nominations": ["Golden globes", "Oscar"],
+      "images": "./img/3_beautiful_mind.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Piekny.Umysl"
+    },
+    {
+      "id": 4,
+      "title": "Chicago",
+      "type": "Musical",
+      "year": "2002",
+      "years": "5",
+      "nominations": "Oscar",
+      "images": "./img/4_chicago.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Chicago"
+    },
+    {
+      "id": 5,
+      "title": "The Lord of the Rings: The Return of the King",
+      "type": "Fantasy",
+      "year": "2003",
+      "years": "5",
+      "nominations": ["Golden globes", "Oscar"],
+      "images": "./img/5_lord_of_the_rings.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Powrot.Krola"
+    },
+    {
+      "id": 6,
+      "title": "Million Dollar Baby",
+      "type": "Drama",
+      "year": "2004",
+      "years": "4",
+      "nominations": "Oscar",
+      "images": "./img/6_million_dollar_baby.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Za.Wszelka.Cene"
+    },
+    {
+      "id": 7,
+      "title": "Crash",
+      "type": "Drama",
+      "year": "2005",
+      "years": "4",
+      "nominations": "Oscar",
+      "images": "./img/7_crash.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Miasto.Gniewu"
+    },
+    {
+      "id": 8,
+      "title": "The Departed",
+      "type": "Crime",
+      "year": "2006",
+      "years": "4",
+      "nominations": "Oscar",
+      "images": "./img/8_the_departed.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Infiltracja"
+    },
+    {
+      "id": 9,
+      "title": "No Country for Old Men",
+      "type": "Drama",
+      "year": "2007",
+      "years": "4",
+      "nominations": "Oscar",
+      "images": "./img/9_no_country_for_old_men.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/To.Nie.Jest.Kraj.Dla.Starych.Ludzi"
+    },
+    {
+      "id": 10,
+      "title": "Slumdog Millionaire",
+      "type": "Drama",
+      "year": "2008",
+      "years": "3",
+      "nominations": ["Golden globes", "Oscar"],
+      "images": "./img/10_slumdog_millionaire.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Slumdog.+Milioner+z+ulicy-2008-468296"
+    },
+    {
+      "id": 11,
+      "title": "The Hurt Locker",
+      "type": "War Drama",
+      "year": "2009",
+      "years": "3",
+      "nominations": "Oscar",
+      "images": "./img/11_the_hurt_locker.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/The+Hurt+Locker.+W+pu%C5%82apce+wojny-2008-416984"
+    },
+    {
+      "id": 12,
+      "title": "The King's Speech",
+      "type": "Biographic",
+      "year": "2010",
+      "years": "3",
+      "nominations": "Oscar",
+      "images": "./img/12_the_king_speech.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Jak+zosta%C4%87+kr%C3%B3lem-2010-539270"
+    },
+    {
+      "id": 13,
+      "title": "The Artist",
+      "type": "Drama",
+      "year": "2011",
+      "years": "3",
+      "nominations": "Oscar",
+      "images": "./img/13_artist.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Artysta-2011-589952"
+    },
+    {
+      "id": 14,
+      "title": "Argo",
+      "type": "Thriller",
+      "year": "2012",
+      "years": "2",
+      "nominations": ["Golden globes", "Oscar"],
+      "images": "./img/14_argo.jpeg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Operacja+Argo-2012-614165"
+    },
+    {
+      "id": 15,
+      "title": "12 Years a Slave",
+      "type": "Biographic",
+      "year": "2013",
+      "years": "2",
+      "nominations": ["Golden globes", "Oscar"],
+      "images": "./img/15_12_years_a_slave.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Zniewolony.+12+Years+a+Slave-2013-632419"
+    },
+    {
+      "id": 16,
+      "title": "Birdman",
+      "type": "Drama",
+      "year": "2014",
+      "years": "2",
+      "nominations": "Oscar",
+      "images": "./img/16_birdman.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Birdman-2014-680709"
+    },
+    {
+      "id": 17,
+      "title": "Spotlight",
+      "type": "Drama",
+      "year": "2015",
+      "years": "2",
+      "nominations": "Oscar",
+      "images": "./img/17_spotlight.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Spotlight-2015-723550"
+    },
+    {
+      "id": 18,
+      "title": "Moonlight",
+      "type": "Drama",
+      "year": "2016",
+      "years": "1",
+      "nominations": ["Golden globes", "Oscar"],
+      "images": "./img/18_moonlight.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Moonlight-2016-759367"
+    },
+    {
+      "id": 19,
+      "title": "The Shape of Water",
+      "type": "Fantasy",
+      "year": "2017",
+      "years": "1",
+      "nominations": "Oscar",
+      "images": "./img/19_the_shape_of_water.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Kszta%C5%82t+wody-2017-775970"
+    },
+    {
+      "id": 20,
+      "title": "The Hours",
+      "type": "Drama",
+      "year": "2002",
+      "years": "5",
+      "nominations": "Golden globes",
+      "images": "./img/20_the_hours.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Godziny"
+    },
+    {
+      "id": 21,
+      "title": "The Aviator",
+      "type": "Biographic",
+      "year": "2004",
+      "years": "4",
+      "nominations": "Golden globes",
+      "images": "./img/21_the_aviator.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Aviator"
+    },
+    {
+      "id": 22,
+      "title": "Brokeback Mountain",
+      "type": "Melodrama",
+      "year": "2005",
+      "years": "4",
+      "nominations": "Golden globes",
+      "images": "./img/22_brokeback_mountain.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Tajemnica.Brokeback.Mountain"
+ 
+    },
+    {
+      "id": 23,
+      "title": "Babel",
+      "type": "Drama",
+      "year": "2006",
+      "years": "4",
+      "nominations": "Golden globes",
+      "images": "./img/23_babel.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Babel"
+    },
+    {
+      "id": 24,
+      "title": "Atonement",
+      "type": "Melodrama",
+      "year": "2007",
+      "years": "4",
+      "nominations": "Golden globes",
+      "images": "./img/24_atonement.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Pokuta"
+    },
+    {
+      "id": 25,
+      "title": "Avatar",
+      "type": "Science Fiction",
+      "year": "2009",
+      "years": "3",
+      "nominations": "Golden globes",
+      "images": "./img/25_avatar.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Avatar"
+    },
+    {
+      "id": 26,
+      "title": "The Social Network",
+      "type": "Biographic",
+      "year": "2010",
+      "years": "3",
+      "nominations": "Golden globes",
+      "images": "./img/26_the_social_network.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/The+Social+Network-2010-528258"
+    },
+    {
+      "id": 27,
+      "title": "The Descendants",
+      "type": "Drama",
+      "year": "2011",
+      "years": "3",
+      "nominations": "Golden globes",
+      "images": "./img/27_the_descendands.jpeg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Spadkobiercy-2011-537189"
+    },
+    {
+      "id": 28,
+      "title": "Boyhood",
+      "type": "Drama",
+      "year": "2014",
+      "years": "2",
+      "nominations": "Golden globes",
+      "images": "./img/28_boyhood.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Boyhood-2014-629125"
+    },
+    {
+      "id": 29,
+      "title": "The Revenant",
+      "type": "Western",
+      "year": "2015",
+      "years": "2",
+      "nominations": "Golden globes",
+      "images": "./img/29_the_revenant.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Zjawa-2015-586583"
+    },
+    {
+      "id": 30,
+      "title": "Three Billboards Outside Ebbing, Missouri",
+      "type": "Drama",
+      "year": "2017",
+      "years": "1",
+      "nominations": "Golden globes",
+      "images": "./img/30_three_billboards.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Trzy+billboardy+za+Ebbing%2C+Missouri-2017-767406"
+    },
+    {
+      "id": 31,
+      "title": "Dancer in the Dark",
+      "type": "Drama",
+      "year": "2000",
+      "years": "5",
+      "nominations": "Cannes",
+      "images": "./img/31_dancer_in_the_dark.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Tanczac.W.Ciemnosciach"
+    },
+    {
+      "id": 32,
+      "title": "La stanza del figlio",
+      "type": "Drama",
+      "year": "2001",
+      "years": "5",
+      "nominations": "Cannes",
+      "images": "./img/32_la_stanza_del_figlio.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Pok%C3%B3j+syna-2001-34186"
+    },
+    {
+      "id": 33,
+      "title": "The Pianist",
+      "type": "War drama",
+      "year": "2002",
+      "years": "5",
+      "nominations": "Cannes",
+      "images": "./img/33_the_pianist.jpeg",
+      "urlFilmWeb": "http://www.filmweb.pl/Pianista"
+    },
+    {
+      "id": 34,
+      "title": "Elephant",
+      "type": "Drama",
+      "year": "2003",
+      "years": "5",
+      "nominations": "Cannes",
+      "images": "./img/34_elephant.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Slon"
+    },
+    {
+      "id": 35,
+      "title": "Fahrenheit 9/11",
+      "type": "Documental",
+      "year": "2004",
+      "years": "4",
+      "nominations": "Cannes",
+      "images": "./img/35_fahrenheit.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Fahrenheit.9.11"
+    },
+    {
+      "id": 36,
+      "title": "L'enfant",
+      "type": "Drama",
+      "year": "2005",
+      "years": "4",
+      "nominations": "Cannes",
+      "images": "./img/36_L'enfant.jpeg",
+      "urlFilmWeb": "http://www.filmweb.pl/Dziecko"
+    },
+    {
+      "id": 37,
+      "title": "The Wind That Shakes the Barley",
+      "type": "War drama",
+      "year": "2006",
+      "years": "4",
+      "nominations": "Cannes",
+      "images": "./img/37_the_wind_that_shakes_the_barley.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Wiatr.Buszujacy.W.Jeczmieniu"
+    },
+    {
+      "id": 38,
+      "title": "4 luni, 3 săptămâni şi 2 zile",
+      "type": "Drama",
+      "year": "2007",
+      "years": "4",
+      "nominations": "Cannes",
+      "images": "./img/38_4_luni.jpeg",
+      "urlFilmWeb": "http://www.filmweb.pl/4.Miesiace.3.Tygodnie.I.2.Dni"
+    },
+    {
+      "id": 39,
+      "title": "Entre les murs",
+      "type": "Drama",
+      "year": "2008",
+      "years": "3",
+      "nominations": "Cannes",
+      "images": "./img/39_entre_les_murs.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Klasa-2008-449118"
+    },
+    {
+      "id": 40,
+      "title": "Das Weisse Band - Eine deutsche Kindergeschichte",
+      "type": "Drama",
+      "year": "2009",
+      "years": "3",
+      "nominations": "Cannes",
+      "images": "./img/40_das_weisse_band.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Bia%C5%82a+wst%C4%85%C5%BCka-2009-467482"
+    },
+    {
+      "id": 41,
+      "title": "Loong Boonmee raleuk chat",
+      "type": "Fantasy",
+      "year": "2010",
+      "years": "3",
+      "nominations": "Cannes",
+      "images": "./img/41_loong_boonmee.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Wujek+Boonmee%2C+kt%C3%B3ry+potrafi+przywo%C5%82a%C4%87+swoje+poprzednie+wcielenia-2010-563969"
+    },
+    {
+      "id": 42,
+      "title": "The Tree of Life",
+      "type": "Drama",
+      "year": "2011",
+      "years": "3",
+      "nominations": "Cannes",
+      "images": "./img/42_the_tree_of_life.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Drzewo+%C5%BCycia-2011-273584"
+    },
+    {
+      "id": 43,
+      "title": "Amour",
+      "type": "Melodrama",
+      "year": "2012",
+      "years": "2",
+      "nominations": "Cannes",
+      "images": "./img/43_amour.jpeg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Mi%C5%82o%C5%9B%C4%87-2012-610244"
+    },
+    {
+      "id": 44,
+      "title": "La vie d'Adèle",
+      "type": "Drama",
+      "year": "2013",
+      "years": "2",
+      "nominations": "Cannes",
+      "images": "./img/44_la_vie_adele.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/%C5%BBycie+Adeli+%E2%80%93+Rozdzia%C5%82+1+i+2-2013-655740"
+    },
+    {
+      "id": 45,
+      "title": "Kış Uykusu",
+      "type": "Drama",
+      "year": "2014",
+      "years": "2",
+      "nominations": "Cannes",
+      "images": "./img/45_kis_uykusu.jpeg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Zimowy+sen-2014-684923"
+    },
+    {
+      "id": 46,
+      "title": "Dheepan",
+      "type": "Drama",
+      "year": "2015",
+      "years": "2",
+      "nominations": "Cannes",
+      "images": "./img/46_dheepan.jpeg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Imigranci-2015-731423"
+    },
+    {
+      "id": 47,
+      "title": "I, Daniel Blake",
+      "type": "Drama",
+      "year": "2016",
+      "years": "1",
+      "nominations": "Cannes",
+      "images": "./img/47_i_daniel_blake.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Ja%2C+Daniel+Blake-2016-759290"
+    },
+    {
+      "id": 48,
+      "title": "The Square",
+      "type": "Comedy",
+      "year": "2017",
+      "years": "1",
+      "nominations": "Cannes",
+      "images": "./img/48_the_square.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/The+Square-2017-786678"
+    },
+    {
+      "id": 49,
+      "title": "The Hangover",
+      "type": "Comedy",
+      "year": "2009",
+      "years": "3",
+      "images": "./img/49_the_hangover.jpeg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Kac+Vegas-2009-487211"
+    },
+    {
+      "id": 50,
+      "title": "Shrek",
+      "type": "Comedy",
+      "year": "2001",
+      "years": "5",
+      "images": "./img/50_shrek.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Shrek"
+    },
+    {
+      "id": 51,
+      "title": "Men in Black II",
+      "type": "Comedy",
+      "year": "2002",
+      "years": "5",
+      "images": "./img/51_men_in_black.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/2.Faceci.W.Czerni"
+    },
+    {
+      "id": 52,
+      "title": "Ali G Indahouse",
+      "type": "Comedy",
+      "year": "2002",
+      "years": "5",
+      "images": "./img/52_ali_g_indahouse.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/Ali.G"
+    },
+    {
+      "id": 53,
+      "title": "Road Trip",
+      "type": "Comedy",
+      "year": "2000",
+      "years": "5",
+      "images": "./img/53_road_trip.jpg",
+      "urlFilmWeb": "http://www.filmweb.pl/film/Ostra+jazda-2000-972"
+    }
+  ]
+ }

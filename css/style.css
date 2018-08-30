@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  content: "";
+}
+
+* {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(150, 150, 150, 0.7);
+}
+
+body {
+  background-image: url("../img/layout/cinemaRed.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* stylowanie headera */
+
+.headerMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.headerMenu .menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  padding-top: 20px;
+}
+
+.headerMenu a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: red;
+  -webkit-transition: width 2s;
+  /* Safari */
+  transition: width 2s;
+}
+
+/* środkowa część */
+
+#choice {
+  display: flex;
+  justify-content: center;
+}
+
+span.gatunek span.nominacje span.lata {
+  padding: 15px;
+}
+
+.list {
+  padding-left: 1px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: #c00000;
+  cursor: url("../img/layout/cursor.cur");
+}
+
+li a {
+  color: black;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  /* border: 2px solid green; */
+}
+
+.left:hover {
+  color: #c00000;
+}
+
+.right {
+  float: right;
+  width: 50%;
+  /* border: 2px solid green; */
+}
+
+.container {
+  width: 100%;
+}
+
+.gatunek {
+  padding-right: 30px;
+}
+
+.lata {
+  padding-right: 30px;
+}
+
+.nominacje {
+  padding-right: 30px;
+}
+
+/* slider */
+
+#slider {
+  /* border: 5px solid blue; */
+  height: 120px;
+  width: 60%;
+  position: absolute;
+  bottom: 23%;
+  left: 0;
+  margin-left: 300px;
+  /* display: flex; */
+  /* justify-content: left; */
+  flex-direction: row;
+}
+
+.d-block {
+  height: 110px;
+  width: 80px;
+  margin-left: 45%;
+}
+
+.carousel-inner {
+  height: 120px;
+  width: 100%;
+  background-size: cover;
+}
+
+/* zaznaczony link */
+.active {
+  font-size: 1.1em;
+  font-weight: bold;
+  }

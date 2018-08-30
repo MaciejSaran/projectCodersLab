@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FilmProjekt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="src/css/extends.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- <script src="./js/app.js"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <menu>
+            <ul class="headerMenu">
+                <li class="menu active">
+                    <a href="index.html">START</a>
+                </li>
+                <li id="random" class="menu">
+                    <a href="random.html">LOSUJ 3</a>
+                </li>
+                <li id="all" class="menu">
+                    <a href="all.html">WSZYSTKIE</a>
+                </li>
+            </ul>
+        </menu>
+    </header>
+
+    <section id="choice">
+        <div class="container">
+            <div class="left">
+                <span class="gatunek">GATUNEK</span>
+            </div>
+            <div class="right">
+                <ul class="list">
+                    <li data-type="genre" data-value="Drama" class="change drama">
+                        <a href="#">DRAMAT</a>
+                    </li>
+                    <li data-type="genre" data-value="Musical" class="change musical">
+                        <a href="#">MUSICAL</a>
+                    </li>
+                    <li data-type="genre" data-value="Fantasy" class="change fantasy">
+                        <a href="#">FANTASY</a>
+                    </li>
+                    <li data-type="genre" data-value="Crime" class="change crime">
+                        <a href="#">KRYMINAŁ</a>
+                    </li>
+                    <li data-type="genre" data-value="War Drama" class="change warDrama selected">
+                        <a href="#">DRAMAT WOJENNY</a>
+                    </li>
+                    <li data-type="genre" data-value="Biographic" class="change bio">
+                        <a href="#">BIOGRAFICZNY</a>
+                    </li>
+                    <li data-type="genre" data-value="Thriller" class="change thriller">
+                        <a href="#">THRILLER</a>
+                    </li>
+                    <li data-type="genre" data-value="Melodrama" class="change melodrama">
+                        <a href="#">MELODRAMAT</a>
+                    </li>
+                    <li data-type="genre" data-value="Science Fiction" class="change s-f">
+                        <a href="#">S-F</a>
+                    </li>
+                    <li data-type="genre" data-value="Western" class="change western">
+                        <a href="#">WESTERN</a>
+                    </li>
+                    <li data-type="genre" data-value="Documental" class="change documentary">
+                        <a href="#">DOKUMENT</a>
+                    </li>
+                    <li data-type="genre" data-value="Comedy" class="change comedy">
+                        <a href="#">KOMEDIA</a>
+                    </li>
+                </ul>
+            </div>
+            <div style="clear: both;"></div>
+
+            <div class="left">
+                <span class="lata">LATA</span>
+            </div>
+            <div class="right">
+                <ul class="list">
+                    <li data-type="year" data-value="1" class="change one">
+                        <a href="#">2016 - 2018</a>
+                    </li>
+                    <li data-type="year" data-value="2" class="change two">
+                        <a href="#">2012 - 2015</a>
+                    </li>
+                    <li data-type="year" data-value="3" class="change three">
+                        <a href="#">2008 - 2011</a>
+                    </li>
+                    <li data-type="year" data-value="4" class="change four">
+                        <a href="#">2004 - 2007</a>
+                    </li>
+                    <li data-type="year" data-value="5" class="change five">
+                        <a href="#">2000 - 2003</a>
+                    </li>
+                    <li data-type="year" data-value="6" class="change six">
+                        <a href="#">EARLIER</a>
+                    </li>
+                </ul>
+            </div>
+            <div style="clear: both;"></div>
+
+            <div class="left">
+                <span class="nominacje">NOMINACJE</span>
+            </div>
+            <div class="right">
+                <ul class="list">
+                    <li data-type="nomination" data-value="Oscar" class="change oscar">
+                        <a href="#">OSKARY</a>
+                    </li>
+                    <li data-type="nomination" data-value="Golden globes" class="change goldenGlobe">
+                        <a href="#">ZŁOTE GLOBY</a>
+                    </li>
+                    <li data-type="nomination" data-value="Cannes" class="change cannes">
+                        <a href="#">CANNES</a>
+                    </li>
+                    <li data-type="nomination" data-value="Berlinale" class="change berlinale">
+                        <a href="#">BERLINALE</a>
+                    </li>
+                    <li data-type="nomination" data-value="Razzie" class="change razzie">
+                        <a href="#">ZŁOTE MALINY</a>
+                    </li>
+                </ul>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+    </section>
+    <div class="search">
+        <input type="button" class="button" value="Szukaj" onClick="location.href='#';" />
+    </div>
+    <div class="divSlider">
+        <section class="slider hidden">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner">
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+    </div>
+
+
+    </div>
+
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="info">
+                        <h6 class="movieType"></h6>
+                        <h6 class="movieYear"></h6>
+                        <h6 class="movieNomination"></h6>
+                        <a class="movieUrl">Link do FilmWebu</a>
+                    </div>
+                    <div>
+                        <img class="movieImg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="divCounter">
+            <span class="counter"></span>
+        </div>
+        <div class="footer">
+            <p>Created by Agata Romanska and Maciej Saran &#174; All Right Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
+    <script src="js/out.js"></script>
+</body>
+
+</html>

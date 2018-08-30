@@ -1,0 +1,275 @@
+/*mixiny, funkcje, zmienne*/
+
+$mobile: "(max-width: 600px)";
+$tablet: "(min-width: 601px) and (max-width: 1023px)";
+$desktop: "(min-width: 1024px)";
+@mixin all {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    content: "";
+  }
+  * {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(150, 150, 150, 0.7);
+  }
+  body {
+    /*background image jest w pliku js/css/extends.css*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  /* stylowanie headera */
+  .headerMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .headerMenu .menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+  .headerMenu a {
+    text-decoration: none;
+    color: black;
+  }
+  a:current {
+    color: #A22520;
+    text-decoration: underline;
+  }
+  /* środkowa część */
+  .prop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #choice {
+    display: flex;
+    justify-content: center;
+  }
+  span.gatunek span.nominacje span.lata {
+    padding: 15px;
+  }
+  .list {
+    padding-left: 1px;
+  }
+  li {
+    list-style-type: none;
+  }
+  li a {
+    color: black;
+  }
+  .left {
+    float: left;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+  .right {
+    float: right;
+    width: 50%;
+  }
+  .container {
+    width: 100%;
+  }
+  .gatunek {
+    padding-right: 30px;
+  }
+  .lata {
+    padding-right: 30px;
+  }
+  .nominacje {
+    padding-right: 30px;
+  }
+  /* zaznaczony link */
+  .active {
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  /* slider */
+  .hidden {
+    display: none;
+  }
+  .d-block {
+    height: 110px;
+    width: 80px;
+    margin-left: 45%;
+  }
+  .carousel-inner {
+    height: 120px;
+    width: 100%;
+    background-size: cover;
+  }
+  .search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  .button {
+    height: 40px;
+    width: 100px;
+    background-color: #A22520;
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+  .movieImg {
+    height: 400px;
+    width: 292px;
+    float: right;
+  }
+  /*footer*/
+  footer {
+    position: fixed;
+    bottom: 30px;
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+  }
+  .footer {
+    text-align: center;
+    color: #D2D2B9;
+  }
+  .divCounter {
+    margin-left: calc(50% - 20px);
+    text-align: center;
+    color: #D2D2B9;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #D2D2B9;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*wyskakujace okno z informacjami o filmie*/
+
+.info {
+  float: left;
+}
+
+/*dla telefonu komórkowego*/
+
+@media #{$mobile} {
+  @include all;
+  * {
+    line-height: 30px;
+  }
+  .headerMenu {
+    font-size: 12px;
+  }
+  .headerMenu:hover {
+    text-decoration: none;
+  }
+  .slider {
+    visibility: hidden;
+    height: 20%;
+    width: 60%;
+    position: absolute;
+    bottom: 180px;
+    left: 0;
+    margin-left: 20%;
+    flex-direction: row;
+  }
+  .activeSlider {
+    visibility: visible;
+  }
+  .visible {
+    visibility: visible;
+  }
+  footer {
+    margin-bottom: 5px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+
+/*dla tabletu*/
+
+@media #{$tablet} {
+  @include all;
+  * {
+    line-height: 30px;
+  }
+  .slider {
+    visibility: hidden;
+    height: 20%;
+    width: 60%;
+    position: absolute;
+    bottom: 180px;
+    left: 0;
+    margin-left: 20%;
+    flex-direction: row;
+  }
+  .activeSlider {
+    visibility: visible;
+  }
+  .visible {
+    visibility: visible;
+  }
+  footer {
+    margin-bottom: 5px;
+    .footer {
+      font-size: 13px;
+    }
+  }
+}
+
+/*dla desktopu*/
+
+@media #{$desktop} {
+  @include all;
+  a:hover {
+    color: red;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+  }
+  li a:hover {
+    text-decoration: none;
+    color: #c00000;
+  }
+  .left:hover {
+    color: #c00000;
+  }
+  .search {
+    visibility: hidden;
+  }
+  .slider {
+    height: 20%;
+    width: 60%;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    margin-left: 20%;
+    flex-direction: row;
+  }
+  .sliderUp {
+    height: 200px;
+    width: 60%;
+    position: absolute;
+    bottom: 350px;
+    left: 0;
+    margin-left: 20%;
+    flex-direction: row;
+    .innerUp {
+      height: 200px;
+      .d-block {
+        height: 200px;
+        width: 150px;
+      }
+    }
+  }
+}
